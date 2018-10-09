@@ -17,7 +17,8 @@ public class Test {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("https://www.yandex.ru/");
-        WebElement InEaill = driver.findElement(By.xpath("//span[contains(text(),'Войти в почту')]"));
+        //WebElement InEaill = driver.findElement(By.xpath("//span[contains(text(),'Войти в почту')]"));
+        WebElement InEaill = driver.findElement(By.xpath("//div//div//a[contains(@class,'button desk-notif-card__login-enter')]/span"));
         Actions actions = new Actions(driver);
         actions.moveToElement(InEaill).click().build().perform();
         driver.findElement(By.xpath("//input[@name='login']")).sendKeys("ajajhartd");
@@ -32,7 +33,7 @@ public class Test {
         WebElement settings = driver.findElement(By.xpath("//a[@id='nb-3']//*[@class='svgicon svgicon-mail--Settings']"));
         Actions settAc = new Actions(driver);
         settAc.moveToElement(settings).click().build().perform();
-        driver.findElement(By.xpath("//span[contains(text(),'Личные данные, подпись, портрет')]")).click();
+        driver.findElement(By.xpath("//span[contains(text(),'Личные данные, подпись, портрет')]")).click();//никак не могу найти различий от ниже стоящих
         try {
             WebElement field = driver.findElement(By.xpath("//input[contains(@class,'nb-input _nb-small-simple')]"));
             Thread.sleep(1000);
@@ -46,19 +47,20 @@ public class Test {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        driver.findElement(By.xpath("//span[contains(text(),'сохранить изменения')]")).click();
+        driver.findElement(By.xpath("//div//div//div//form//button[contains(@class,'nb-button _nb-action-button b-mail-button_setup-saver')]//span[contains(@class,'b-button-text')]")).click();
     }
 
     @org.testng.annotations.Test(dependsOnGroups = "T1",enabled = true,groups = {"T3"})
     public void send_massage() {
         //login();
         //driver.findElement(By.xpath("//body//button[@class='button2 button2_size_l button2_theme_normal button2_width_max'")).click();
-        driver.findElement(By.xpath("//div[@class='mail-ComposeButton-Wrap']//a[@title='Написать (w, c)']")).click();
+        driver.findElement(By.xpath("//div//div//a[contains(@class,'mail-ComposeButton js-main-action-compose')]")).click();
         driver.findElement(By.xpath("//div[@name='to']")).sendKeys("ajajhartd@yandex.ru");
         driver.findElement(By.xpath("//input[@name='subj-8f182c2e9272c2015b1b4cd48e08d167ef84e2c1']")).sendKeys("fdbrdr");
         driver.findElement(By.xpath("//div[@class='cke_wysiwyg_div cke_reset cke_enable_context_menu cke_editable cke_editable_themed cke_contents_ltr cke_show_borders']")).sendKeys("ddfvdfvf");
         driver.findElement(By.xpath("//button[@id='nb-13']//span[@class='_nb-button-content']")).click();
         /*
+        //div//div//span[contains(@class,'mail-ComposeButton-Text')]
         driver.findElement(By.xpath("//button[@id='nb-136']")).click();
         WebElement In = driver.findElement(By.xpath("//a[@class='mail-Done-Redirect-Link']"));
         Actions InACt = new Actions(driver);
@@ -77,7 +79,8 @@ public class Test {
                 clac.moveToElement(elem).click().build().perform();
             }
 
-            driver.findElement(By.xpath("//span[@class='mail-Toolbar-Item-Text js-toolbar-item-title js-toolbar-item-title-delete']")).click();
+            //driver.findElement(By.xpath("//span[@class='mail-Toolbar-Item-Text js-toolbar-item-title js-toolbar-item-title-delete']")).click();
+            //driver.findElement(By.xpath("//div//div//button[contains(@class,'theme_action js-confirm-mops')]")).click();
         }
     }
     @org.testng.annotations.Test(dependsOnGroups = "T1", enabled = true,groups = {"T3"})

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b704a36-d794-4b3d-87c0-bd326befbe49" name="Default Changelist" comment="" />
+    <list default="true" id="6b704a36-d794-4b3d-87c0-bd326befbe49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,19 +26,19 @@
     <session id="670258371">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="12" />
           <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,7 +63,7 @@
         <counts>
           <entry key="class" value="59" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="3643" />
+          <entry key="java" value="3716" />
           <entry key="xml" value="321" />
         </counts>
       </usages-collector>
@@ -68,7 +71,7 @@
         <counts>
           <entry key="CLASS" value="59" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="3643" />
+          <entry key="JAVA" value="3716" />
           <entry key="XML" value="321" />
         </counts>
       </usages-collector>
@@ -79,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="510">
+              <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -492,10 +495,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="155" />
+    <option name="width" value="1774" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -503,7 +506,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -538,12 +541,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539075599538" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539078664134" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -561,17 +564,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Test.send_massage">
-    <configuration name="E:/IdeaProjects/YandexNew/src/test/resources/TestNG.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="YandexNew_test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Test.find_my_massages">
     <configuration name="Test" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <module name="YandexNew_main" />
       <option name="PACKAGE_NAME" value="" />
@@ -582,11 +575,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.change_language" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.change_name" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="YandexNew_main" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="change_language" />
+      <option name="METHOD_NAME" value="change_name" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -599,6 +592,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="find_my_massages" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YandexNew_main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -633,18 +638,18 @@
     <list>
       <item itemvalue="TestNG.Test" />
       <item itemvalue="TestNG.Test.send_massage" />
-      <item itemvalue="TestNG.Test.find_my_massages" />
-      <item itemvalue="TestNG.Test.change_language" />
-      <item itemvalue="TestNG.E:/IdeaProjects/YandexNew/src/test/resources/TestNG.xml" />
       <item itemvalue="TestNG.Test.quot" />
+      <item itemvalue="TestNG.Test.login" />
+      <item itemvalue="TestNG.Test.change_name" />
+      <item itemvalue="TestNG.Test.find_my_massages" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test.send_massage" />
-        <item itemvalue="TestNG.Test.quot" />
-        <item itemvalue="TestNG.E:/IdeaProjects/YandexNew/src/test/resources/TestNG.xml" />
         <item itemvalue="TestNG.Test.find_my_massages" />
-        <item itemvalue="TestNG.Test.change_language" />
+        <item itemvalue="TestNG.Test.change_name" />
+        <item itemvalue="TestNG.Test.login" />
+        <item itemvalue="TestNG.Test.quot" />
+        <item itemvalue="TestNG.Test.send_massage" />
       </list>
     </recent_temporary>
   </component>
@@ -662,27 +667,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__IdeaProjects_YandexNew_src_test_resources_TestNG_xml - 2018.10.08 at 14h 18m 20s.xml">
-      <configuration name="E:/IdeaProjects/YandexNew/src/test/resources/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="E__IdeaProjects_YandexNew_src_test_resources_TestNG_xml - 2018.10.08 at 14h 26m 34s.xml">
-      <configuration name="E:/IdeaProjects/YandexNew/src/test/resources/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Test_send_massage - 2018.10.08 at 14h 31m 51s.xml">
-      <configuration name="Test.send_massage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Test_send_massage - 2018.10.08 at 14h 32m 10s.xml">
-      <configuration name="Test.send_massage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Test_quot - 2018.10.08 at 14h 32m 57s.xml">
-      <configuration name="Test.quot" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Test_send_massage - 2018.10.08 at 14h 33m 16s.xml">
-      <configuration name="Test.send_massage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Test_send_massage - 2018.10.08 at 14h 37m 15s.xml">
-      <configuration name="Test.send_massage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Test_quot - 2018.10.08 at 14h 37m 25s.xml">
       <configuration name="Test.quot" configurationId="TestNG" />
     </history-entry>
@@ -691,6 +675,27 @@
     </history-entry>
     <history-entry file="Test_send_massage - 2018.10.08 at 14h 38m 30s.xml">
       <configuration name="Test.send_massage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test_login - 2018.10.09 at 14h 14m 13s.xml">
+      <configuration name="Test.login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test_login - 2018.10.09 at 14h 18m 02s.xml">
+      <configuration name="Test.login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test_quot - 2018.10.09 at 14h 18m 11s.xml">
+      <configuration name="Test.quot" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test_login - 2018.10.09 at 14h 18m 22s.xml">
+      <configuration name="Test.login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test_login - 2018.10.09 at 14h 18m 47s.xml">
+      <configuration name="Test.login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test_change_name - 2018.10.09 at 14h 36m 43s.xml">
+      <configuration name="Test.change_name" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test_find_my_massages - 2018.10.09 at 14h 42m 05s.xml">
+      <configuration name="Test.find_my_massages" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -703,10 +708,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="124" y="0" width="1419" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18027961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -716,7 +721,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.1929078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.05957447" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.058739256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
@@ -889,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="510">
+          <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
