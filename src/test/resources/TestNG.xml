@@ -5,7 +5,11 @@
         <groups>
             <run>
                 <include name="T3"/>
+                <include name="T1"/>
             </run>
+            <dependencies>
+                <group name="T3" depends-on="T1"></group>
+            </dependencies>
         </groups>
         <classes>
             <class name="Test">
