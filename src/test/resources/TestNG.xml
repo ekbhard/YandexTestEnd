@@ -1,14 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="TestYa" parallel="tests" thread-count="4">
+<suite name="TestYa" parallel="methods">
     <test name="Test1 ">
         <groups>
             <run>
-                <include name="T3"/>
                 <include name="T1"/>
+                <include name="T3"/>
             </run>
             <dependencies>
-                <group name="T3" depends-on="T1"></group>
             </dependencies>
         </groups>
         <classes>

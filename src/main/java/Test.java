@@ -50,7 +50,7 @@ public class Test {
         }
         driver.findElement(By.xpath("//div//div//div//form//button[contains(@class,'nb-button _nb-action-button b-mail-button_setup-saver')]//span[contains(@class,'b-button-text')]")).click();
     }
-
+    //dependsOnGroups = "T1"
     @org.testng.annotations.Test(dependsOnGroups = "T1", groups = {"T3"})
     public void send_massage() {
         //login();
@@ -93,7 +93,7 @@ public class Test {
         driver.findElement(By.xpath("//img[@class='b-mail-icon b-mail-icon_lang-en']")).click();
     }
 
-    @org.testng.annotations.Test
+@org.testng.annotations.Test
     public void quot() {
         driver.quit();
     }

@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b704a36-d794-4b3d-87c0-bd326befbe49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestNG.xml" afterDir="false" />
     </list>
@@ -30,7 +26,7 @@
     <session id="670258371">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.12" value="1" />
@@ -38,11 +34,11 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="13" />
+          <entry key="project.open.time.6" value="14" />
           <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -67,31 +63,29 @@
         <counts>
           <entry key="class" value="59" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="3818" />
-          <entry key="xml" value="341" />
+          <entry key="java" value="3827" />
+          <entry key="xml" value="349" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="59" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="3818" />
-          <entry key="XML" value="341" />
+          <entry key="JAVA" value="3827" />
+          <entry key="XML" value="349" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="139">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5866#5867#0" expanded="true" />
-                <element signature="e#5895#5896#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+            <state relative-caret-position="238">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -501,11 +495,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-337" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-338" />
     <option name="y" value="125" />
-    <option name="width" value="1774" />
-    <option name="height" value="1039" />
+    <option name="width" value="1775" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -513,8 +507,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -549,11 +543,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539100041383" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539108375000" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -651,10 +645,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E:/IdeaProjects/YandexNew/src/test/resources/TestNG.xml" />
+        <item itemvalue="TestNG.Test.quot" />
         <item itemvalue="TestNG.Test.change_language" />
         <item itemvalue="TestNG.Test.find_my_massages" />
         <item itemvalue="TestNG.Test.send_massage" />
-        <item itemvalue="TestNG.Test.quot" />
       </list>
     </recent_temporary>
   </component>
@@ -672,21 +666,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_login - 2018.10.09 at 20h 41m 20s.xml">
-      <configuration name="Test.login" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Test_quot - 2018.10.09 at 20h 41m 29s.xml">
-      <configuration name="Test.quot" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Test_login - 2018.10.09 at 20h 41m 40s.xml">
-      <configuration name="Test.login" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Test_change_name - 2018.10.09 at 20h 42m 01s.xml">
-      <configuration name="Test.change_name" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Test_send_massage - 2018.10.09 at 20h 42m 21s.xml">
-      <configuration name="Test.send_massage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Test_quot - 2018.10.09 at 20h 42m 29s.xml">
       <configuration name="Test.quot" configurationId="TestNG" />
     </history-entry>
@@ -702,6 +681,21 @@
     <history-entry file="E__IdeaProjects_YandexNew_src_test_resources_TestNG_xml - 2018.10.09 at 20h 44m 47s.xml">
       <configuration name="E:/IdeaProjects/YandexNew/src/test/resources/TestNG.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="E__IdeaProjects_YandexNew_src_test_resources_TestNG_xml - 2018.10.09 at 21h 37m 38s.xml">
+      <configuration name="E:/IdeaProjects/YandexNew/src/test/resources/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__IdeaProjects_YandexNew_src_test_resources_TestNG_xml - 2018.10.09 at 21h 39m 13s.xml">
+      <configuration name="E:/IdeaProjects/YandexNew/src/test/resources/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__IdeaProjects_YandexNew_src_test_resources_TestNG_xml - 2018.10.09 at 21h 44m 12s.xml">
+      <configuration name="E:/IdeaProjects/YandexNew/src/test/resources/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test_quot - 2018.10.09 at 21h 44m 35s.xml">
+      <configuration name="Test.quot" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__IdeaProjects_YandexNew_src_test_resources_TestNG_xml - 2018.10.09 at 21h 45m 23s.xml">
+      <configuration name="E:/IdeaProjects/YandexNew/src/test/resources/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -713,9 +707,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-269" y="100" width="1419" height="831" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19793966" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18322147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -725,7 +719,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.1929078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.31661892" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25106382" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
@@ -903,22 +897,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/TestNG.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        <state relative-caret-position="139">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/TestNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5866#5867#0" expanded="true" />
-            <element signature="e#5895#5896#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
