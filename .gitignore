@@ -1,3 +1,4 @@
-*.iml
-/YandexNew/.src/.main/.java/*
-/YandexNew/.src/.test/.resources/*
+.idea/
+.gradle/
+out/
+gradle/
