@@ -1,4 +1,11 @@
-.idea/
-.gradle/
-out/
-gradle/
+YandexNew/\.gradle/
+
+
+YandexNew/\.idea/
+
+
+YandexNew/build/
+
+YandexNew/out/
+
+YandexNew/test-output/

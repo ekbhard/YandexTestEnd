@@ -1,18 +1,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="TestYa" parallel="methods">
-    <test name="Test1 ">
-        <groups>
-            <run>
-                <include name="T1"/>
-                <include name="T3"/>
-            </run>
-            <dependencies>
-            </dependencies>
-        </groups>
+    <test name="Test1" thread-count="5">
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="T3"/>-->
+            <!--</run>-->
+        <!--</groups>-->
         <classes>
             <class name="Test">
                 <methods>
+
                 </methods>
             </class>
         </classes>
