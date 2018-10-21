@@ -1,8 +1,5 @@
-YandexNew/\.gradle/
-
-
-YandexNew/\.idea/
-
+gradle/* 
+idea/* 
 
 YandexNew/build/
 
@@ -11,3 +8,5 @@ YandexNew/out/
 YandexNew/test-output/
 
 YandexNew/\.idea
+/settings.gradle
+/gradlew
